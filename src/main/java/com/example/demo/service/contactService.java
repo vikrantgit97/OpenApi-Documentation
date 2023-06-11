@@ -9,6 +9,4 @@ public interface contactService {
 	 String delete(int cid);
 	 List<Contact> getallContact();
 	 Contact getContact(int cid);
-	 
-	 
 }

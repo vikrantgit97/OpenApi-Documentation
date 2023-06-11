@@ -1,18 +1,21 @@
 package com.example.demo.model;
 
+import io.swagger.v3.oas.annotations.Hidden;
+import io.swagger.v3.oas.annotations.tags.Tag;
+
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
-
+@Tag(name="Contact")
 @Entity
 public class Contact {
 	@Id
 	@GeneratedValue
+	@Hidden
 	private int cid;
 	private String name;
 	private String email;
 	private long phone;
-	private String activesw;
 	public int getCid() {
 		return cid;
 	}
@@ -37,19 +40,14 @@ public class Contact {
 	public void setPhone(long phone) {
 		this.phone = phone;
 	}
-	public String getActivesw() {
-		return activesw;
-	}
-	public void setActivesw(String activesw) {
-		this.activesw = activesw;
-	}
+
 	@Override
 	public String toString() {
-		return "Contact [cid=" + cid + ", name=" + name + ", email=" + email + ", phone=" + phone + ", activesw="
-				+ activesw + "]";
+		return "Contact{" +
+				"cid=" + cid +
+				", name='" + name + '\'' +
+				", email='" + email + '\'' +
+				", phone=" + phone +
+				'}';
 	}
-	
-	
-	
-	
 }
