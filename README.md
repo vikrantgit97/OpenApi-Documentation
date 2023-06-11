@@ -68,8 +68,6 @@ To get started with this project, you will need to have the following installed 
     - Navigate to the project directory
     - Build the project: `mvn clean install`
     - Run `mvn clean package spring-boot:run` to build the artifact and run the application
-* Docker
-    - Run `docker-compose up --build -d` to run the docker services
 ## Documentation (Swagger)
 [SwaggerDocumentation_SpringBoot_Application](http://localhost:8080/swagger-ui.html) to visualize the exposed API
 - Swagger UI: `http://server:port/swagger-ui.html`
