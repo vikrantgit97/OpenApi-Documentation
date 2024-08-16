@@ -41,9 +41,9 @@ To get started with this project, you will need to have the following installed 
       from code editors with built-in Swagger/OpenAPI support to API management platforms that leverage the specification for documentation, 
       testing, and monitoring. The widespread adoption of Swagger/OpenAPI ensures compatibility and interoperability across various development tools and frameworks.
 ## Technologies used
-    Java-11
+    Java-11+
     Spring-boot
-    Open-API(Swagger)
+    Open-API3(Swagger)
 ### Document REST API with Swagger 2(Open API 2) dependency
            <dependency>
 			<groupId>io.springfox</groupId>
@@ -60,8 +60,17 @@ To get started with this project, you will need to have the following installed 
       <dependency>
           <groupId>org.springdoc</groupId>
           <artifactId>springdoc-openapi-ui</artifactId>
-          <version>1.7.0</version>
+          <version>1.8.0</version>
       </dependency>
+
+                or
+
+        <dependency>
+            <groupId>org.springdoc</groupId>
+            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+            <version>2.6.0</version>
+        </dependency>
+
 ## Build and Run the project, follow these steps
 * Locally
     - Clone the repository: `git clone https://github.com/vikrantgit97/OpenApi-Swagger-DocumentationSpringboot.git`

@@ -1,6 +1,5 @@
 package com.example.demo.config;
 
-
 import io.swagger.v3.oas.models.ExternalDocumentation;
 import io.swagger.v3.oas.models.OpenAPI;
 import io.swagger.v3.oas.models.info.Contact;
@@ -10,7 +9,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class configuration {
+public class Config {
 
 	@Bean
 	public OpenAPI springShopOpenAPI() {
@@ -24,6 +23,6 @@ public class configuration {
 						.url("https://github.com/vikrantgit97")
 				)
             )
-				.externalDocs(new ExternalDocumentation());
+		.externalDocs(new ExternalDocumentation());
 	}
 }
