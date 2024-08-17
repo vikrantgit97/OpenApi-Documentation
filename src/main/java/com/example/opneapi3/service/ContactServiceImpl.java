@@ -24,7 +24,7 @@ public class ContactServiceImpl implements ContactService {
     @Override
     public String delete(int cid) {
         repository.deleteById(cid);
-        return "success delete....";
+        return "success deleted....";
     }
 
     @Override

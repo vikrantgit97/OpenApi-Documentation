@@ -39,41 +39,37 @@ To get started with this project, you will need to have the following installed 
     Java-11+
     Spring-boot
     Open-API3(Swagger)
-### Document REST API with Swagger 2(Open API 2) dependency
-       <dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-swagger-ui</artifactId>
-			<version>2.x.x</version>
-		</dependency>
 
-		<dependency>
-			<groupId>io.springfox</groupId>
-			<artifactId>springfox-swagger2</artifactId>
-			<version>2.x.x</version>
-		</dependency>
-### Document REST API with Swagger 3(Open API 3) dependency
+### Document REST API with Springboot 2(Open API 2) dependency
       <dependency>
           <groupId>org.springdoc</groupId>
           <artifactId>springdoc-openapi-ui</artifactId>
           <version>1.8.0</version>
       </dependency>
 
-                or
+        or
 
+    implementation 'org.springdoc:springdoc-openapi-ui:1.8.0'
+
+### Document REST API with Springboot 3(Open API 3) dependency
       <dependency>
           <groupId>org.springdoc</groupId>
           <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
           <version>2.6.0</version>
       </dependency>
 
+        or
+
+    implementation 'org.springdoc:springdoc-openapi-starter-webmvc-ui:2.6.0'
+
 ## Build and Run the project, follow these steps
 * Locally
-    - Clone the repository: `git clone https://github.com/vikrantgit97/OpenApi-Swagger-DocumentationSpringboot.git`
+    - Clone the repository: `git clone https://github.com/vikrantgit97/OpenApi-Documentation.git`
     - Navigate to the project directory
     - Build the project: `mvn clean install`
     - Run `mvn clean package spring-boot:run` to build the artifact and run the application
 ## Documentation (Swagger)
-[SwaggerDocumentation_SpringBoot_Application](http://localhost:8080/swagger-ui.html) to visualize the exposed API
+[SwaggerDocumentation_SpringBoot_Application](http://localhost:8080/swagger-ui/index.html) to visualize the exposed API
 - Swagger UI: `http://server:port/swagger-ui.html`
 - OpenAPI `http://server:port/v3/api-docs`
 ### SpringBoot with Swagger(Open API) Documentation references
@@ -91,9 +87,12 @@ To get started with this project, you will need to have the following installed 
 
 7)[spring-doc-openapi v1.8.0](https://springdoc.org/)
 
-8)[OpenAPI 3](https://swagger.io/specification/)
+8)[Swagger](https://swagger.io/specification/)
+
+9)[OpenAPI 3](https://spec.openapis.org/oas/latest.html)
 
 9)[Spring Boot + Swagger 3 example (with OpenAPI 3)](https://www.bezkoder.com/spring-boot-swagger-3/)
 
-*  [Install any LINUX OS or Ubuntu for Development (Recommended)](https://releases.ubuntu.com)
+*  Install any **LINUX OS** or Ubuntu for Development Recommended.
+    (https://releases.ubuntu.com)
   <img src="https://assets.ubuntu.com/v1/a7e3c509-Canonical%20Ubuntu.svg" style="height: 14px">
