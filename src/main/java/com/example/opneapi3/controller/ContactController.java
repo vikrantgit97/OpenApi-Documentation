@@ -38,7 +38,7 @@ public class ContactController {
 
     @Operation(
             summary = "Retrieve a Contact by Id",
-            description = "Get a Contact by specifying its id. The response is Tutorial object with id, title, description and published status."
+            description = "Get a Contact by specifying its id. The response is Contact object with id, title, description and published status."
             //, tags = { "contact", "get" }
             )
     @ApiResponses({
