@@ -38,8 +38,9 @@ public class ContactController {
 
     @Operation(
             summary = "Retrieve a Contact by Id",
-            description = "Get a Contact by specifying its id. The response is Tutorial object with id, title, description and published status.",
-            tags = { "contact", "get" })
+            description = "Get a Contact by specifying its id. The response is Tutorial object with id, title, description and published status."
+            //, tags = { "contact", "get" }
+            )
     @ApiResponses({
             @ApiResponse(responseCode = "200", content = { @Content(schema = @Schema(implementation = Contact.class), mediaType = "application/json") }),
             @ApiResponse(responseCode = "400", description = "Invalid id supplied", content = @Content),

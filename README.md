@@ -1,3 +1,6 @@
+## Swagger OpenApi3 Documentation Visualization
+![img.png](src/main/resources/images/img.png)
+
 ## Getting Started
 To get started with this project, you will need to have the following installed on your local machine:
 
@@ -93,6 +96,6 @@ To get started with this project, you will need to have the following installed 
 
 9)[Spring Boot + Swagger 3 example (with OpenAPI 3)](https://www.bezkoder.com/spring-boot-swagger-3/)
 
-*  Install any **LINUX OS** or Ubuntu for Development Recommended.
+Install any **LINUX OS** or Ubuntu for Development Recommended.
     (https://releases.ubuntu.com)
   <img src="https://assets.ubuntu.com/v1/a7e3c509-Canonical%20Ubuntu.svg" style="height: 14px">
