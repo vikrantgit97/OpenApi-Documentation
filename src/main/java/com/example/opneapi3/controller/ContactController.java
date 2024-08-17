@@ -1,7 +1,7 @@
-package com.example.demo.controller;
+package com.example.opneapi3.controller;
 
-import com.example.demo.model.Contact;
-import com.example.demo.service.ContactService;
+import com.example.opneapi3.model.Contact;
+import com.example.opneapi3.service.ContactService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

@@ -4,57 +4,52 @@ To get started with this project, you will need to have the following installed 
 * JDK 11+
 * Maven 3+
 
-      Swagger is a specification for defining APIs (Application Programming Interfaces).
-      Swagger is designed to improve upon previous versions by offering more powerful features and enhanced flexibility.
-      
-      The Swagger specification allows developers to define the structure and behavior of APIs, including details 
-      such as endpoints, request/response formats, authentication methods, error handling, and more. It uses a JSON or YAML 
-      format to describe the API and its documentation.
-      
-      With Swagger, developers can generate interactive documentation for their APIs, which makes it easier for other 
-      developers to understand and consume the API. The documentation includes information about available endpoints, 
-      parameters, request/response examples, and any other relevant details.
+        Swagger: is a specification for defining APIs (Application Programming Interfaces)Originally, 
+        Swagger was a framework for API documentation and design, which included tools for generating interactive API 
+        docs, code generation, and more. The Swagger specification, now known as Swagger 2.0, 
+        was the standard for describing APIs before OpenAPI.
+  
+        OpenAPI Specification (OAS): The OpenAPI Specification is a more formal and standardized version of the 
+        Swagger specification. In 2016, the Swagger Specification was donated to the Linux Foundation and became 
+        part of the OpenAPI Initiative, which is now responsible for the specification's development and evolution. 
+        The OpenAPI Specification (currently at version 3.x) represents a significant advancement over Swagger 2.0.
+
+        OpenAPI 3: This is the 3rd version of the OpenAPI Specification and offers more advanced features and improvements 
+        over Swagger 2.0. It provides a more powerful and flexible way to describe APIs, including better support for 
+        component reusability, enhanced security definitions, and more detailed specification of request and response formats.
 
 * Features
 
       API Documentation: Swagger/OpenAPI provides a structured and standardized way to document APIs. It allows developers 
-      to define endpoints, request/response formats, parameters, and other details in a machine-readable format. 
-      This documentation can be automatically generated and made available to other developers, making it easier to understand and consume the API.
+      to define endpoints, request/response formats, authentication methods, error handling, parameters, 
+      and It uses a JSON or YAML to describe the API and its docs. This documentation can be automatically generated 
+      and made thus allows multiple developers or teams to collaborate on API development making it easier to understand and consume the API.
       
-      Client SDK Generation: Swagger/OpenAPI specifications can be used to generate client SDKs for various programming languages. 
-      These SDKs provide pre-built code and functions that make it easier for developers to interact with the API. It saves time 
-      and effort by automatically generating code that handles API requests, authentication, and error handling.
+      Client SDK Generation: Swagger specifications can be used to generate client SDKs for various programming languages. 
+      These SDKs provide pre-built code and functions that make it easier for developers to interact with the API.
+      authentication, and error handling.
       
       Testing: Swagger/OpenAPI can be leveraged to generate automated tests for the API. By defining request/response examples 
       and expected behavior in the specification, developers can generate test cases that validate the API's functionality and performance. 
       Automated testing helps catch issues early in the development process and ensures the API behaves as expected.
-      
-      Consistency and Collaboration: Swagger/OpenAPI promotes consistency in API design by providing a standardized format and structure. 
-      It allows multiple developers or teams to collaborate on API development, as the specification serves as a common reference point. 
-      Developers can easily understand and work with APIs defined using Swagger/OpenAPI, reducing confusion and promoting better collaboration.
-      
-      API Visualization: Swagger/OpenAPI specifications can be used to generate interactive API documentation using tools like Swagger UI. 
-      This documentation provides an interactive interface where developers can explore and test the API endpoints directly. It improves 
-      the developer experience and makes it easier to understand the API's capabilities and usage.
-      
-      Ecosystem and Tooling: Swagger/OpenAPI has a vibrant ecosystem with numerous tools and integrations available. These tools range 
-      from code editors with built-in Swagger/OpenAPI support to API management platforms that leverage the specification for documentation, 
-      testing, and monitoring. The widespread adoption of Swagger/OpenAPI ensures compatibility and interoperability across various development tools and frameworks.
+
+      API Visualization: Swagger specifications can be used to generate interactive API documentation using tools like Swagger UI. 
+
 ## Technologies used
     Java-11+
     Spring-boot
     Open-API3(Swagger)
 ### Document REST API with Swagger 2(Open API 2) dependency
-           <dependency>
+       <dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger-ui</artifactId>
-			<version>3.0.0</version>
+			<version>2.x.x</version>
 		</dependency>
 
 		<dependency>
 			<groupId>io.springfox</groupId>
 			<artifactId>springfox-swagger2</artifactId>
-			<version>3.0.0</version>
+			<version>2.x.x</version>
 		</dependency>
 ### Document REST API with Swagger 3(Open API 3) dependency
       <dependency>
@@ -65,11 +60,11 @@ To get started with this project, you will need to have the following installed 
 
                 or
 
-        <dependency>
-            <groupId>org.springdoc</groupId>
-            <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
-            <version>2.6.0</version>
-        </dependency>
+      <dependency>
+          <groupId>org.springdoc</groupId>
+          <artifactId>springdoc-openapi-starter-webmvc-ui</artifactId>
+          <version>2.6.0</version>
+      </dependency>
 
 ## Build and Run the project, follow these steps
 * Locally
@@ -94,8 +89,11 @@ To get started with this project, you will need to have the following installed 
 
 6)[https://spring.io/projects/spring-restdocs (by Spring official)](https://spring.io/projects/spring-restdocs)
 
-7)[spring-doc-openapi v1.7.0](https://springdoc.org/)
+7)[spring-doc-openapi v1.8.0](https://springdoc.org/)
 
-8)[Spring Boot + Swagger 3 (OpenAPI 3)](https://www.javainuse.com/spring/boot_swagger3)
+8)[OpenAPI 3](https://swagger.io/specification/)
 
 9)[Spring Boot + Swagger 3 example (with OpenAPI 3)](https://www.bezkoder.com/spring-boot-swagger-3/)
+
+*  [Install any LINUX OS or Ubuntu for Development (Recommended)](https://releases.ubuntu.com)
+  <img src="https://assets.ubuntu.com/v1/a7e3c509-Canonical%20Ubuntu.svg" style="height: 14px">

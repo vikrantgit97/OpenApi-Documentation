@@ -1,4 +1,4 @@
-package com.example.demo.config;
+package com.example.opneapi3.config;
 
 import io.swagger.v3.oas.models.ExternalDocumentation;
 import io.swagger.v3.oas.models.OpenAPI;
@@ -14,10 +14,10 @@ public class Config {
 	@Bean
 	public OpenAPI springShopOpenAPI() {
 		return new OpenAPI()
-				.info(new Info().title("SpringBoot_Swagger_OpenAp-3 API")
-						.description("SpringBoot with Swagger application")
+				.info(new Info().title("OpenApI-3Application")
+						.description("SpringBoot with OpenApI application")
 						.version("v0.0.1")
-						.license(new License().name("Apache 2.0").url("http://springdoc.org"))
+						.license(new License().name("Apache 2.0").url("https://www.apache.org/licenses/LICENSE-2.0.html"))
 						.contact(new Contact()
 						.name("Vikrant")
 						.url("https://github.com/vikrantgit97")

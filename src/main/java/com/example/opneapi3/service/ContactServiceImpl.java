@@ -1,4 +1,4 @@
-package com.example.demo.service;
+package com.example.opneapi3.service;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,8 +6,8 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.example.demo.model.Contact;
-import com.example.demo.repo.ContactRepository;
+import com.example.opneapi3.model.Contact;
+import com.example.opneapi3.repo.ContactRepository;
 
 @Service
 public class ContactServiceImpl implements ContactService {

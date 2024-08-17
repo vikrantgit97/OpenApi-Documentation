@@ -1,7 +1,7 @@
-package com.example.demo.service;
+package com.example.opneapi3.service;
 
 import java.util.List;
-import com.example.demo.model.Contact;
+import com.example.opneapi3.model.Contact;
 
 public interface ContactService {
 

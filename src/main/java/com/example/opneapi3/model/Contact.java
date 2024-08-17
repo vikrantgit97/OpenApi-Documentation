@@ -1,4 +1,4 @@
-package com.example.demo.model;
+package com.example.opneapi3.model;
 
 import io.swagger.v3.oas.annotations.Hidden;
 import io.swagger.v3.oas.annotations.tags.Tag;
